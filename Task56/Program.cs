@@ -32,7 +32,7 @@ namespace Task56
                 }
             }
 
-            Console.WriteLine("Строка с наименьшей суммов:");
+            Console.WriteLine("Строка с наименьшей суммой:");
             Console.WriteLine(line);
         }
 
