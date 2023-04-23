@@ -11,7 +11,7 @@ namespace Task56
             var n = 4;
             var array = new int[m, n];
 
-            CreateArray(array);
+            FillArray(array);
             ArrayOutputConsole(array);
 
             var sumItems = 0;
@@ -47,7 +47,7 @@ namespace Task56
             }
         }
 
-        private static void CreateArray(int[,] array)
+        private static void FillArray(int[,] array)
         {
             for (int i = 0; i < array.GetLength(0); i++)
             {

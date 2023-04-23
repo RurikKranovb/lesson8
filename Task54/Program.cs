@@ -17,7 +17,7 @@ namespace Task54
             var n = Convert.ToInt32(Console.ReadLine());
             var array = new int[m, n];
 
-            CreateArray(array);
+            FillArray(array);
             ArrayOutputConsole(array);
 
 
@@ -54,7 +54,7 @@ namespace Task54
             }
         }
 
-        private static void CreateArray(int[,] array)
+        private static void FillArray(int[,] array)
         {
             for (int i = 0; i < array.GetLength(0); i++)
             {
